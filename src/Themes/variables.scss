@@ -1,0 +1,46 @@
+$merck-teal: #00857c;
+$merck-blue: #0C2340;
+$merck-off-white: #F7F7F7;
+$white: #FFFFFF;
+$light-teal: #F7F7F7;
+
+$body: #E7E7E7;
+$link: #2B5174;
+$link-active: #0B60A3;
+
+$button-primary: #6ECEB2;
+
+$data-trend-negative: #DF3D3D;
+$data-trend-positive: #35BA2F;
+
+
+$merck-lime: #BFED33;
+$merck-lemon: #FFF063;
+$merck-pastel-blue: #69B8F7;
+$merck-vista-blue: #688CE8;
+$merck-rich-blue: #5450E4;
+
+.merck-icon {
+  height: 24px;
+  width: 24px;
+  padding: 8px;
+}
+
+.nav-section {
+  height: 342px;
+  width: 186px;
+}
+
+.nav-icon {
+  height: 76px;
+  width: 76px;
+}
+
+
+@media only screen and (min-width: 3800px) {
+  .merck-icon {
+    height: 57px;
+    width: 57px;
+    padding: 19px;
+  }
+}
