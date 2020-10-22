@@ -1,0 +1,22 @@
+.header {
+  background-color: #00857C;
+  height: 80px;
+  display: flex;
+  color: #FFFFFF;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.header-logo {
+  margin-left: 14px;
+}
+
+.header-title {
+  margin-left: 14px;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.header-country {
+  margin-right: 14px;
+}

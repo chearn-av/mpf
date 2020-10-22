@@ -1,6 +1,6 @@
 import React from 'react';
 import Dropdown from './Dropdown';
-import './Header.scss';
+import './Header.css';
 
 function Header(props) {
   return (
