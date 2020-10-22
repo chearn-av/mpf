@@ -1,0 +1,17 @@
+.simple-input {
+  height: 38px;
+  border: 1px solid #B3B3B3;
+  border-radius: 3px;
+  color: #212121;
+  padding-left: 16px;
+}
+
+.simple-input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.simple-input:active, .simple-input:hover, .simple-input:focus, .simple-input:disabled {
+  background-color: #E7F5FF;
+}
+/*# sourceMappingURL=Input.css.map */

@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/common/Header';
 import Input from './components/common/Input';
+import Grid from './components/grid/Grid';
 import './App.scss';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       />
       <Input />
       <Input disabled='true' />
+      <Grid />
     </div>
   );
 }
