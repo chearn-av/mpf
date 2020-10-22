@@ -7,11 +7,10 @@ function App() {
   return (
     <div className="App">
       <Header
-        title={"Nov Forecast"}
-        options={[{ title: 'EMEA', value: 'EMEA' }, { title: 'France', value: 'France' }]}
+        title={"Nov Pricing"}
       />
       <Input />
-      <Input disabled='true' />
+      <Input disabled={true} />
     </div>
   );
 }
