@@ -1,0 +1,22 @@
+.Header {
+  background-color: #00857C;
+  height: 80px;
+  display: flex;
+  color: #FFFFFF;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.Header-Logo {
+  margin-left: 14px;
+}
+
+.Header-Title {
+  margin-left: 14px;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.Header-Region {
+  margin-right: 14px;
+}
