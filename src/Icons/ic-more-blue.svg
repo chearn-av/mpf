@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="61px" viewBox="0 0 60 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>D2EB5236-F7BE-4F01-8206-1E3461511770</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.043137 0 0 0 0 0.376471 0 0 0 0 0.639216 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="STYLEGUIDE:-Basics" transform="translate(-3611.000000, -4105.000000)">
+            <g id="ICONS" transform="translate(0.000000, 2817.951807)">
+                <g id="ICONS-BLUE" transform="translate(0.000000, 1165.180723)">
+                    <g id="Icons-/-more" transform="translate(3534.457831, 123.614458)" filter="url(#filter-1)">
+                        <g transform="translate(77.831325, 0.000000)" id="ic-more">
+                            <rect id="Rectangle" x="0" y="0" width="57" height="57"></rect>
+                            <path d="M28.5,23.75 C31.1233526,23.75 33.25,25.8766474 33.25,28.5 C33.25,31.1233526 31.1233526,33.25 28.5,33.25 C25.8766474,33.25 23.75,31.1233526 23.75,28.5 C23.75,25.8766474 25.8766474,23.75 28.5,23.75 Z M9.5,23.75 C12.1233526,23.75 14.25,25.8766474 14.25,28.5 C14.25,31.1233526 12.1233526,33.25 9.5,33.25 C6.87664744,33.25 4.75,31.1233526 4.75,28.5 C4.75,25.8766474 6.87664744,23.75 9.5,23.75 Z M47.5,23.75 C50.1233526,23.75 52.25,25.8766474 52.25,28.5 C52.25,31.1233526 50.1233526,33.25 47.5,33.25 C44.8766474,33.25 42.75,31.1233526 42.75,28.5 C42.75,25.8766474 44.8766474,23.75 47.5,23.75 Z" id="Icon-Color" fill="#666666"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

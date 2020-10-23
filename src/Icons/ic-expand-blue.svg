@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="63px" viewBox="0 0 61 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>A77857A3-04E1-4753-A7AB-6C3107CC473F</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.043137 0 0 0 0 0.376471 0 0 0 0 0.639216 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="STYLEGUIDE:-Basics" transform="translate(-2906.000000, -4312.000000)">
+            <g id="ICONS" transform="translate(0.000000, 2817.951807)">
+                <g id="ICONS-BLUE" transform="translate(0.000000, 1165.180723)">
+                    <g id="Group" transform="translate(2837.349398, 331.310603)">
+                        <g id="ic-expand" transform="translate(70.963855, 0.617108)">
+                            <g filter="url(#filter-1)" id="Checkbox/Inactive/Default" stroke-linecap="round">
+                                <g>
+                                    <rect id="Checkbox" stroke="#FFFFFF" x="0" y="0" width="57" height="57" rx="6.86746988"></rect>
+                                </g>
+                            </g>
+                            <path d="M29.7590361,16.0240964 L29.7580964,25.1800964 L38.9156627,25.1807229 L38.9156627,29.7590361 L29.7580964,29.7580964 L29.7590361,38.9156627 L25.1807229,38.9156627 L25.1800964,29.7580964 L16.0240964,29.7590361 L16.0240964,25.1807229 L25.1800964,25.1800964 L25.1807229,16.0240964 L29.7590361,16.0240964 Z" id="Combined-Shape" fill="#0B60A3" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

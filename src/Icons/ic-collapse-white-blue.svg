@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="60px" viewBox="0 0 58 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>6C32B286-25EE-447C-874F-594B5F0D54DC</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.043137 0 0 0 0 0.376471 0 0 0 0 0.639216 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="STYLEGUIDE:-Basics" transform="translate(-2675.000000, -4312.000000)">
+            <g id="ICONS" transform="translate(0.000000, 2817.951807)">
+                <g id="ICONS-BLUE" transform="translate(0.000000, 1165.180723)">
+                    <g id="Group" transform="translate(2606.000000, 331.000000)">
+                        <g id="ic-collapse-white" transform="translate(70.963855, 0.617108)">
+                            <g filter="url(#filter-1)" id="Checkbox/Inactive/Default" stroke-linecap="round">
+                                <g>
+                                    <rect id="Checkbox" stroke="#FFFFFF" x="0" y="0" width="54.939759" height="54.939759" rx="6.86746988"></rect>
+                                </g>
+                            </g>
+                            <polygon id="Path-5" fill="#0B60A3" fill-rule="nonzero" points="38.9156627 25.1807229 38.9156627 29.7590361 16.0240964 29.7590361 16.0240964 25.1807229"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

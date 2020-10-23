@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="62px" viewBox="0 0 60 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>AD3F41A9-9A32-4946-AEB3-A64280FD1BEC</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.043137 0 0 0 0 0.376471 0 0 0 0 0.639216 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="STYLEGUIDE:-Basics" transform="translate(-2448.000000, -4097.000000)">
+            <g id="ICONS" transform="translate(0.000000, 2817.951807)">
+                <g id="ICONS-BLUE" transform="translate(0.000000, 1165.180723)">
+                    <g id="ic-filter-white" transform="translate(2378.433735, 115.934954)" filter="url(#filter-1)">
+                        <g transform="translate(70.963855, 0.812034)" id="ic-filter">
+                            <rect id="Rectangle" x="0" y="0" width="57" height="57"></rect>
+                            <path d="M38,39.1875 L38,43.9375 L19,43.9375 L19,39.1875 L38,39.1875 Z M42.75,27.3125 L42.75,32.0625 L14.25,32.0625 L14.25,27.3125 L42.75,27.3125 Z M49.875,15.4375 L49.875,20.1875 L7.125,20.1875 L7.125,15.4375 L49.875,15.4375 Z" id="Icon-Color" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
