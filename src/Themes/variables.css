@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700");
+.merck-icon {
+  height: 24px;
+  width: 24px;
+  padding: 8px;
+}
+
+.nav-section {
+  height: 342px;
+  width: 186px;
+}
+
+.nav-icon {
+  height: 76px;
+  width: 76px;
+}
+
+@media only screen and (min-width: 3800px) {
+  .merck-icon {
+    height: 57px;
+    width: 57px;
+    padding: 19px;
+  }
+}
+/*# sourceMappingURL=variables.css.map */
