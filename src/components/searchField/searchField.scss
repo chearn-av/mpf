@@ -1,0 +1,11 @@
+@import '../common/Input.scss';
+
+.search-field {
+    .simple-input {
+        background: url('../../Icons/ic-search.svg');
+        background-repeat: no-repeat;
+        background-position: 5% 50%;
+        background-size: 16px;
+        padding-left: 32px;
+    }
+}

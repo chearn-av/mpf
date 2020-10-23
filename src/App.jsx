@@ -4,6 +4,7 @@ import Navigation from './components/common/Navigation';
 import PatientForecast from './components/patientForecast/PatientForecast';
 import Pricing from './components/pricing/Pricing';
 import Input from './components/common/Input';
+import SearchField from './components/searchField/searchField'
 import { Switch, Route } from 'react-router-dom';
 import './App.css';
 
@@ -19,6 +20,7 @@ function App() {
           <Input />
           <Input disabled={true} />
           <Input label='Form Label'/>
+          <SearchField />
           <Switch>
             <Route exact path="/">
               <PatientForecast />

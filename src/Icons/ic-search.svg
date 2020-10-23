@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="51px" viewBox="0 0 50 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>7AE4A111-4099-463F-8D3B-DA3A122092F8</title>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="STYLEGUIDE:-Components" transform="translate(-96.000000, -1579.000000)">
+            <g id="CONTENT" transform="translate(68.000000, 380.000000)">
+                <g id="INPUTS" transform="translate(1.000000, 145.873494)">
+                    <g id="Controls-/-Search-Bar-Copy" transform="translate(4.759036, 933.810558)">
+                        <g id="Search-Icon-and-Term" transform="translate(23.795181, 121.607573)">
+                            <g id="ic-search" transform="translate(0.000000, 0.000113)">
+                                <rect id="Rectangle" x="0" y="0" width="47.5903614" height="47.5903614"></rect>
+                                <path d="M32.1465383,10.4436173 C37.6802873,15.9773663 38.1044273,24.6858193 33.4189583,30.7062254 L41.6415663,38.9287011 L38.9287011,41.6415663 L30.7046939,33.42015 C24.6843426,38.1043554 15.9768971,37.6798181 10.4436173,32.1465383 C4.45052114,26.1534422 4.45052114,16.4367134 10.4436173,10.4436173 C16.4367134,4.45052114 26.1534422,4.45052114 32.1465383,10.4436173 Z M29.4336732,13.1564824 C24.9388511,8.66166031 17.6513045,8.66166031 13.1564824,13.1564824 C8.66166031,17.6513045 8.66166031,24.9388511 13.1564824,29.4336732 C17.6513045,33.9284953 24.9388511,33.9284953 29.4336732,29.4336732 C33.9284953,24.9388511 33.9284953,17.6513045 29.4336732,13.1564824 Z" id="Icon-Color" fill="#666666"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
