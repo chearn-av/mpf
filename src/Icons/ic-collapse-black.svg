@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="62px" viewBox="0 0 61 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>78EC5D9C-70D9-4FE2-8173-C211D4C2BA1C</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="STYLEGUIDE:-Basics" transform="translate(-2674.000000, -5658.000000)">
+            <g id="ICONS" transform="translate(0.000000, 2817.951807)">
+                <g id="ICONS-SELECTED" transform="translate(70.963855, 2513.493976)">
+                    <g id="ic-expand-black" transform="translate(2535.000000, 329.000000)" filter="url(#filter-1)">
+                        <g transform="translate(70.963855, 0.986821)">
+                            <g id="Checkbox/Inactive/Default" stroke="#666666" stroke-linecap="round">
+                                <rect id="Checkbox" x="0" y="0" width="57" height="57" rx="6.86746988"></rect>
+                            </g>
+                            <polygon id="Combined-Shape" fill="#666666" fill-rule="nonzero" points="38.9156627 25.1807229 38.9156627 29.7590361 16.0240964 29.7590361 16.0240964 25.1807229"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -23,7 +23,7 @@
   }
 }
 
-.input-field {
+.textarea-field {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -34,28 +34,19 @@
   margin: 20px;
 }
 
-.input-field .simple-input {
-  height: 38px;
+.textarea-field .simple-input {
+  height: 96px;
   border: 1px solid #B3B3B3;
   border-radius: 3px;
   color: #212121;
-  padding-left: 16px;
+  padding: 8px;
   font-family: "Roboto", serif;
 }
 
-.input-field .simple-input:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-}
-
-.input-field .simple-input:active, .input-field .simple-input:hover, .input-field .simple-input:focus, .input-field .simple-input:disabled {
-  background-color: #E7F5FF;
-}
-
-.input-field .input-label {
+.textarea-field .input-label {
   font-family: "Roboto Condensed", serif;
   font-weight: 700 !important;
   text-align: left;
   padding: 8px 0;
 }
-/*# sourceMappingURL=Input.css.map */
+/*# sourceMappingURL=Textarea.css.map */
