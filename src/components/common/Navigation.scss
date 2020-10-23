@@ -1,3 +1,5 @@
+@import '../../Themes/variables.scss';
+
 .navigation {
   display: flex;
   flex-direction: column;
@@ -11,6 +13,8 @@
   padding: 12px;
   border: 1px solid gray;
   border-top: 0;
+  font-family: $roboto-label;
+  font-weight: 700;
 }
 
 .link {

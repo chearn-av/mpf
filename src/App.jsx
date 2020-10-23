@@ -19,6 +19,7 @@ function App() {
         <div className="body">
           <Input />
           <Input disabled={true} />
+          <Input label='Form Label'/>
           <Grid />
           <Switch>
             <Route exact path="/">
