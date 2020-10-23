@@ -18,6 +18,7 @@ function App() {
         <div className="body">
           <Input />
           <Input disabled={true} />
+          <Input label='Form Label'/>
           <Switch>
             <Route exact path="/">
               <PatientForecast />
