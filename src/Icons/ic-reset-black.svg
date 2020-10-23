@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="61px" viewBox="0 0 60 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>A2DC39EA-CCF2-42D0-9F00-D7E19BBD591D</title>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="STYLEGUIDE:-Basics" transform="translate(-827.000000, -5660.000000)">
+            <g id="ICONS" transform="translate(0.000000, 2817.951807)">
+                <g id="ICONS-SELECTED" transform="translate(70.963855, 2513.493976)">
+                    <g id="Group" transform="translate(691.000000, 330.000000)">
+                        <g id="Icon/20px/cloud_up-[#1062]" transform="translate(0.120482, 0.201145)">
+                            <g id="ic-refresh" transform="translate(66.000000, 0.000000)">
+                                <rect id="Rectangle" x="0" y="0" width="57" height="57"></rect>
+                                <path d="M14.7650602,30.7891566 C14.7650602,37.6566265 20.9274699,44.5240964 28.5,44.5240964 C36.0725301,44.5240964 42.2349398,38.3616867 42.2349398,30.7891566 C42.2349398,23.2166265 36.0725301,17.0542169 28.5,17.0542169 L28.5,21.6325301 L17.0542169,14.7650602 L28.5,7.89759036 L28.5,12.4759036 C38.613494,12.4759036 46.813253,20.6756627 46.813253,30.7891566 C46.813253,40.9026506 38.613494,49.1024096 28.5,49.1024096 C18.386506,49.1024096 10.186747,42.2349398 10.186747,30.7891566 L14.7650602,30.7891566 Z" id="Icon-Color" fill="#000000"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

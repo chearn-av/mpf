@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="62px" viewBox="0 0 61 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>5934713D-E5DC-4A39-9063-63DB08B65F79</title>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="STYLEGUIDE:-Basics" transform="translate(-1753.000000, -5439.000000)">
+            <g id="ICONS" transform="translate(0.000000, 2817.951807)">
+                <g id="ICONS-SELECTED" transform="translate(70.963855, 2513.493976)">
+                    <g id="Group" transform="translate(1613.855422, 109.651274)">
+                        <g id="ic-caret-down" transform="translate(70.963855, 0.228244)">
+                            <rect id="Rectangle" x="0" y="0" width="57" height="57"></rect>
+                            <path d="M19.9837572,21.375 L37.0162428,21.375 C38.3279191,21.375 39.3912428,22.4383237 39.3912428,23.75 C39.3912428,24.3798892 39.1410203,24.9839797 38.6956214,25.4293786 L30.1793786,33.9456214 C29.2518834,34.8731166 27.7481166,34.8731166 26.8206214,33.9456214 L18.3043786,25.4293786 C17.3768834,24.5018834 17.3768834,22.9981166 18.3043786,22.0706214 C18.7497775,21.6252225 19.353868,21.375 19.9837572,21.375 Z" id="Icon-Color" fill="#000000"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
