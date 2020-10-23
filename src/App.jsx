@@ -4,7 +4,6 @@ import Navigation from './components/common/Navigation';
 import PatientForecast from './components/patientForecast/PatientForecast';
 import Pricing from './components/pricing/Pricing';
 import Input from './components/common/Input';
-import Grid from './components/grid/Grid';
 import { Switch, Route } from 'react-router-dom';
 import './App.css';
 
@@ -19,7 +18,6 @@ function App() {
         <div className="body">
           <Input />
           <Input disabled={true} />
-          <Grid />
           <Switch>
             <Route exact path="/">
               <PatientForecast />
