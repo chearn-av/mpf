@@ -1,11 +1,11 @@
 @import '../../Themes/variables.scss';
 
 .header {
-  background-color: #00857C;
-  height: 80px;
+  background-color: $merck-teal;
+  height: 195px;
   display: flex;
-  color: #FFFFFF;
-  align-items: baseline;
+  color: $merck-off-white;
+  align-items: center;
   justify-content: space-between;
 }
 

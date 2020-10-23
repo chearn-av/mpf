@@ -1,13 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700");
+.merck-icon {
+  height: 24px;
+  width: 24px;
+  padding: 8px;
+}
+
+.nav-section {
+  height: 342px;
+  width: 186px;
+}
+
+.nav-icon {
+  height: 76px;
+  width: 76px;
+}
+
+@media only screen and (min-width: 3800px) {
+  .merck-icon {
+    height: 57px;
+    width: 57px;
+    padding: 19px;
+  }
+}
+
 .header {
-  background-color: #00857C;
-  height: 80px;
+  background-color: #00857c;
+  height: 195px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #FFFFFF;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  color: #F7F7F7;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -23,6 +48,8 @@
       -ms-flex-positive: 1;
           flex-grow: 1;
   text-align: left;
+  font-family: "Roboto Condensed", serif;
+  font-weight: 700;
 }
 
 .header-country {
