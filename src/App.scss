@@ -1,3 +1,11 @@
 .App {
   text-align: center;
 }
+
+.contents {
+  display: flex;
+}
+
+.body {
+  flex-grow: 1;
+}
