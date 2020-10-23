@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="62px" viewBox="0 0 60 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>BCD79F74-1630-4C1F-ACD4-DA568E41EAC1</title>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="STYLEGUIDE:-Basics" transform="translate(-601.000000, -4766.000000)">
+            <g id="ICONS" transform="translate(0.000000, 2817.951807)">
+                <g id="ICONS-WHITE" transform="translate(0.000000, 1774.096386)">
+                    <g id="Group" transform="translate(531.084337, 175.473413)">
+                        <g id="ic-arrow-down" transform="translate(70.963855, 0.791648)">
+                            <rect id="Rectangle" x="0" y="0" width="57" height="57"></rect>
+                            <path d="M28.5,4.75 L47.5,23.5519098 L42.4997785,28.5 L32.231,18.338 L32.2312861,52.25 L25.1062861,52.25 L25.106,18.004 L14.5002215,28.5 L9.5,23.5519098 L28.5,4.75 Z" id="Icon-Color" fill="#FFFFFF" transform="translate(28.500000, 28.500000) scale(1, -1) translate(-28.500000, -28.500000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="49px" viewBox="0 0 48 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>F28EE235-3A71-4359-85E3-7A7C2A25AFC0@3x</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.043137 0 0 0 0 0.376471 0 0 0 0 0.639216 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <path d="M0.608433735,46.3915663 L45.5555499,46.3915663 L45.5555499,41.909615 L0.608433735,41.909615 L0.608433735,46.3915663 Z M16.3399244,30.7047367 L16.3399244,24.6765122 L29.1565946,12.8419198 L33.63108,17.7631023 L22.198781,30.7047367 L16.3399244,30.7047367 Z M36.0245139,6.66354994 L39.9798601,10.5964622 L36.8987353,13.8570818 L32.7793321,9.74937341 L36.0245139,6.66354994 Z M46.3915663,11.2418632 L35.7795521,0.608433735 L11.8452128,22.7851288 L11.8452128,35.186688 L24.1247649,35.186688 L46.3915663,11.2418632 Z" id="path-2"></path>
+    </defs>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="STYLEGUIDE:-Basics" transform="translate(-3392.000000, -4104.000000)">
+            <g id="ICONS" transform="translate(0.000000, 2817.951807)">
+                <g id="ICONS-BLUE" transform="translate(0.000000, 1165.180723)">
+                    <g id="Icons-/-edit" transform="translate(3290.000000, 117.000000)" filter="url(#filter-1)">
+                        <g transform="translate(102.963855, 5.000000)">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="edit-[#1483]" fill="#666666" xlink:href="#path-2"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

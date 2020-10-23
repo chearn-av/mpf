@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="62px" viewBox="0 0 60 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>C829FC93-C4A2-470F-8F86-49C655D293A6</title>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="STYLEGUIDE:-Basics" transform="translate(-603.000000, -4986.000000)">
+            <g id="ICONS" transform="translate(0.000000, 2817.951807)">
+                <g id="ICONS-WHITE" transform="translate(0.000000, 1774.096386)">
+                    <g id="Group" transform="translate(533.373494, 395.970392)">
+                        <g id="ic-report" transform="translate(70.963855, 0.053705)">
+                            <rect id="Rectangle" x="0" y="0" width="57" height="57"></rect>
+                            <path d="M35.650926,4.75 C37.0305067,4.75 38.3373595,5.34947051 39.2365999,6.38462495 L39.400349,6.58378209 L46.499423,15.711163 C47.0938781,16.4754624 47.4392615,17.4014062 47.4926972,18.3640312 L47.5,18.6273809 L47.5,47.5 C47.5,50.0504817 45.4898587,52.1314697 42.967428,52.2451121 L42.75,52.25 L14.25,52.25 C11.6995183,52.25 9.61853034,50.2398587 9.50488786,47.717428 L9.5,47.5 L9.5,9.5 C9.5,6.94951834 11.5101413,4.86853034 14.032572,4.75488786 L14.25,4.75 L35.650926,4.75 Z M33.249,9.5 L14.25,9.5 L14.25,47.5 L42.75,47.5 L42.75,19 L33.25,19 L33.249,9.5 Z M38,36.8125 L38,41.5625 L19,41.5625 L19,36.8125 L38,36.8125 Z M38,26.125 L38,30.875 L19,30.875 L19,26.125 L38,26.125 Z" id="Icon-Color" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

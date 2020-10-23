@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="61px" viewBox="0 0 59 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>3F5A1906-F4FE-4E33-B7E9-01F5D334B6A2</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.043137 0 0 0 0 0.376471 0 0 0 0 0.639216 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <path d="M15.4518072,25.753012 L36.0542169,25.753012 L36.0542169,5.15060241 L15.4518072,5.15060241 L15.4518072,25.753012 Z M25.753012,36.0542169 L5.15060241,36.0542169 L5.15060241,15.4518072 L10.3012048,15.4518072 L10.3012048,28.3283133 C10.3012048,29.7498795 11.4523645,30.9036145 12.876506,30.9036145 L25.753012,30.9036145 L25.753012,36.0542169 Z M38.6295181,0 L12.876506,0 C11.4523645,0 10.3012048,1.15373494 10.3012048,2.5753012 L10.3012048,10.3012048 L2.5753012,10.3012048 C1.15115964,10.3012048 0,11.4549398 0,12.876506 L0,38.6295181 C0,40.0510843 1.15115964,41.2048193 2.5753012,41.2048193 L28.3283133,41.2048193 C29.7524548,41.2048193 30.9036145,40.0510843 30.9036145,38.6295181 L30.9036145,30.9036145 L38.6295181,30.9036145 C40.0536596,30.9036145 41.2048193,29.7498795 41.2048193,28.3283133 L41.2048193,2.5753012 C41.2048193,1.15373494 40.0536596,0 38.6295181,0 L38.6295181,0 Z" id="path-2"></path>
+    </defs>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="STYLEGUIDE:-Basics" transform="translate(-2217.000000, -4098.000000)">
+            <g id="ICONS" transform="translate(0.000000, 2817.951807)">
+                <g id="ICONS-BLUE" transform="translate(0.000000, 1165.180723)">
+                    <g id="ic-filter-white" transform="translate(2147.228916, 116.645797)" filter="url(#filter-1)">
+                        <g transform="translate(70.963855, 0.101191)">
+                            <g id="Icon" transform="translate(6.867470, 7.912500)">
+                                <mask id="mask-3" fill="white">
+                                    <use xlink:href="#path-2"></use>
+                                </mask>
+                                <use fill="#FFFFFF" xlink:href="#path-2"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

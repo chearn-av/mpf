@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="62px" viewBox="0 0 60 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>1FE685AB-8846-4205-91EA-37197CE502A7</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.043137 0 0 0 0 0.376471 0 0 0 0 0.639216 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="STYLEGUIDE:-Basics" transform="translate(-3139.000000, -4098.000000)">
+            <g id="ICONS" transform="translate(0.000000, 2817.951807)">
+                <g id="ICONS-BLUE" transform="translate(0.000000, 1165.180723)">
+                    <g id="ic-maximize-white" transform="translate(3069.759036, 116.645797)" filter="url(#filter-1)">
+                        <g transform="translate(70.963855, 0.101191)" id="ic-expand">
+                            <rect id="Rectangle" x="0" y="0" width="57" height="57"></rect>
+                            <path d="M34.6412428,38 L38,34.6412428 L45.125,41.764375 L45.125,36.6805556 L49.875,36.6805556 L49.875,49.875 L36.6805556,49.875 L36.6805556,45.125 L41.764375,45.125 L34.6412428,38 Z M19,34.6412428 L22.3587572,38 L15.23325,45.125 L20.3194444,45.125 L20.3194444,49.875 L7.125,49.875 L7.125,36.6805556 L11.875,36.6805556 L11.875,41.762 L19,34.6412428 Z M49.875,7.125 L49.875,20.3194444 L45.125,20.3194444 L45.125,15.23325 L38,22.3587572 L34.6412428,19 L41.762,11.875 L36.6805556,11.875 L36.6805556,7.125 L49.875,7.125 Z M20.3194444,7.125 L20.3194444,11.875 L15.235625,11.875 L22.3587572,19 L19,22.3587572 L11.875,15.235625 L11.875,20.3194444 L7.125,20.3194444 L7.125,7.125 L20.3194444,7.125 Z" id="Icon-Color" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
