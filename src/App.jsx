@@ -15,11 +15,11 @@ function App() {
         title={"Nov Pricing"}
       />
       <div className="contents">
-        <Navigation />
+        <Navigation forecastSelected={true} />
         <div className="body">
           <Input />
           <Input disabled={true} />
-          <Input label='Form Label'/>
+          <Input label='Form Label' />
           <SearchField />
           <Switch>
             <Route exact path="/">

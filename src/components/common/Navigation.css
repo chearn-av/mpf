@@ -31,6 +31,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 342px;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .navigation-option {
@@ -46,18 +49,85 @@
       -ms-flex-pack: center;
           justify-content: center;
   padding: 12px;
-  border: 1px solid gray;
-  border-top: 0;
+  border-bottom: 1px solid #808080;
   font-family: "Roboto Condensed", serif;
   font-weight: 700;
 }
 
+.navigation-option:hover #Icon-Color {
+  fill: #000000;
+}
+
+.navigation-option:hover #path-1 {
+  fill: #000000;
+}
+
+.navigation-option:hover #calendar {
+  fill: #000000;
+}
+
+.navigation-option:hover #clock {
+  fill: #000000;
+}
+
+.navigation-option:hover #Combined-Shape {
+  fill: #000000;
+}
+
+.icon {
+  display: block;
+  margin: auto;
+  height: 72px;
+  width: 72px;
+}
+
 .link {
   text-decoration: none;
+  color: #808080;
 }
 
 .active-navigation {
-  background-color: #00857C;
-  color: white;
+  background-color: #00857c;
+  color: #ffffff;
+}
+
+.active-navigation #Icon-Color {
+  fill: #ffffff;
+}
+
+.active-navigation #path-1 {
+  fill: #ffffff;
+}
+
+.active-navigation #calendar {
+  fill: #ffffff;
+}
+
+.active-navigation #clock {
+  fill: #ffffff;
+}
+
+.active-navigation #combined-shape {
+  fill: #ffffff;
+}
+
+.active-navigation:hover #Icon-Color {
+  fill: #ffffff;
+}
+
+.active-navigation:hover #path-1 {
+  fill: #ffffff;
+}
+
+.active-navigation:hover #calendar {
+  fill: #ffffff;
+}
+
+.active-navigation:hover #clock {
+  fill: #ffffff;
+}
+
+.active-navigation:hover #combined-shape {
+  fill: #ffffff;
 }
 /*# sourceMappingURL=Navigation.css.map */

@@ -8,7 +8,7 @@ function Header(props) {
     <div>
       <header className="header">
         <img className="header-logo" src={logo} alt="logo" />
-        <h3 className="header-title">{props.title}</h3>
+        <div className="header-title">{props.title}</div>
         {props.options &&
           <div className="header-country">
             <Dropdown options={props.options} />

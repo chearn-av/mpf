@@ -3,6 +3,8 @@
 .navigation {
   display: flex;
   flex-direction: column;
+  width: 342px;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
 }
 
 .navigation-option {
@@ -11,17 +13,88 @@
   flex-direction: column;
   justify-content: center;
   padding: 12px;
-  border: 1px solid gray;
-  border-top: 0;
+  border-bottom: 1px solid #808080;
   font-family: $roboto-label;
   font-weight: 700;
+
+  &:hover {
+    #Icon-Color {
+      fill: #000000;
+    }
+
+    #path-1 {
+      fill: #000000;
+    }
+
+    #calendar {
+      fill: #000000;
+    }
+
+    #clock {
+      fill: #000000;
+    }
+
+    #Combined-Shape {
+      fill: #000000;
+    }
+  }
+}
+
+.icon {
+  display: block;
+  margin: auto;
+  height: 72px;
+  width: 72px;
 }
 
 .link {
   text-decoration: none;
+  color: #808080;
 }
 
 .active-navigation {
-  background-color: #00857C;
-  color: white;
+  background-color: $merck-teal;
+  color: #ffffff;
+
+  #Icon-Color {
+    fill: #ffffff;
+  }
+
+  #path-1 {
+    fill: #ffffff;
+  }
+
+  #calendar {
+    fill: #ffffff;
+  }
+
+  #clock {
+    fill: #ffffff;
+  }
+
+  #combined-shape {
+    fill: #ffffff;
+  }
+
+  &:hover {
+    #Icon-Color {
+      fill: #ffffff;
+    }
+
+    #path-1 {
+      fill: #ffffff;
+    }
+
+    #calendar {
+      fill: #ffffff;
+    }
+
+    #clock {
+      fill: #ffffff;
+    }
+
+    #combined-shape {
+      fill: #ffffff;
+    }
+  }
 }
