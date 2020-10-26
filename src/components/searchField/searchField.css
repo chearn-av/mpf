@@ -54,7 +54,7 @@
 
 .input-field .input-label {
   font-family: "Roboto Condensed", serif;
-  font-weight: 700;
+  font-weight: 700 !important;
   text-align: left;
   padding: 8px 0;
 }

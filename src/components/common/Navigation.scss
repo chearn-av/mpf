@@ -13,29 +13,13 @@
   flex-direction: column;
   justify-content: center;
   padding: 12px;
-  border-bottom: 1px solid #808080;
+  border-bottom: 1px solid $gray;
   font-family: $roboto-label;
   font-weight: 700;
 
   &:hover {
-    #Icon-Color {
-      fill: #000000;
-    }
-
-    #path-1 {
-      fill: #000000;
-    }
-
-    #calendar {
-      fill: #000000;
-    }
-
-    #clock {
-      fill: #000000;
-    }
-
-    #Combined-Shape {
-      fill: #000000;
+    #Icon-Color, #path-1, #calendar, #clock, #Combined-Shape {
+      fill: $black;
     }
   }
 }
@@ -49,52 +33,26 @@
 
 .link {
   text-decoration: none;
-  color: #808080;
+  color: $gray;
+
+  &:hover, &:focus {
+    color: $black;
+    text-decoration: underline;
+  }
 }
 
-.active-navigation {
+.active-navigation.link {
   background-color: $merck-teal;
-  color: #ffffff;
+  color: $white;
 
-  #Icon-Color {
-    fill: #ffffff;
-  }
-
-  #path-1 {
-    fill: #ffffff;
-  }
-
-  #calendar {
-    fill: #ffffff;
-  }
-
-  #clock {
-    fill: #ffffff;
-  }
-
-  #combined-shape {
-    fill: #ffffff;
+  #Icon-Color, #path-1, #calendar, #clock, #combined-shape {
+    fill: $white;
   }
 
   &:hover {
-    #Icon-Color {
-      fill: #ffffff;
-    }
-
-    #path-1 {
-      fill: #ffffff;
-    }
-
-    #calendar {
-      fill: #ffffff;
-    }
-
-    #clock {
-      fill: #ffffff;
-    }
-
-    #combined-shape {
-      fill: #ffffff;
+    #Icon-Color, #path-1, #calendar, #clock, #combined-shape {
+      fill: $white;
     }
   }
+
 }

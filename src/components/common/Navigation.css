@@ -54,23 +54,7 @@
   font-weight: 700;
 }
 
-.navigation-option:hover #Icon-Color {
-  fill: #000000;
-}
-
-.navigation-option:hover #path-1 {
-  fill: #000000;
-}
-
-.navigation-option:hover #calendar {
-  fill: #000000;
-}
-
-.navigation-option:hover #clock {
-  fill: #000000;
-}
-
-.navigation-option:hover #Combined-Shape {
+.navigation-option:hover #Icon-Color, .navigation-option:hover #path-1, .navigation-option:hover #calendar, .navigation-option:hover #clock, .navigation-option:hover #Combined-Shape {
   fill: #000000;
 }
 
