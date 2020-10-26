@@ -17,8 +17,8 @@
   font-weight: 700;
   align-items: center;
 
-  &:hover {
-    #Icon-Color, #path-1, #calendar, #clock, #Combined-Shape {
+  &:hover, &:focus {
+    #Icon-Color, #path-1, #ic-graph-bar #Icon, #ic-report #Icon, #ic-clock #Icon, #Combined-Shape {
       fill: $black;
     }
   }
@@ -56,12 +56,12 @@
     display: block;
   }
 
-  #Icon-Color, #path-1, #calendar, #clock, #combined-shape {
+  #Icon-Color, #path-1, #ic-graph-bar #Icon, #ic-report #Icon, #ic-clock #Icon, #Combined-Shape {
     fill: $white;
   }
 
   &:hover {
-    #Icon-Color, #path-1, #calendar, #clock, #combined-shape {
+    #Icon-Color, #path-1, #ic-graph-bar #Icon, #ic-report #Icon, #ic-clock #Icon, #Combined-Shape {
       fill: $white;
     }
   }

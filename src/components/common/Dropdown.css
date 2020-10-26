@@ -1,10 +1,74 @@
-.label {
-  color: gray;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700");
+.merck-icon {
+  height: 24px;
+  width: 24px;
+  padding: 8px;
 }
 
-.dropdown {
+.nav-section {
+  height: 342px;
+  width: 186px;
+}
+
+.nav-icon {
+  height: 76px;
+  width: 76px;
+}
+
+@media only screen and (min-width: 3800px) {
+  .merck-icon {
+    height: 57px;
+    width: 57px;
+    padding: 19px;
+  }
+}
+
+.label {
+  color: #808080;
+}
+
+#dropdownButton {
   border-radius: 3px;
-  border-color: gray;
-  min-width: 100px;
+  border-color: #808080;
+  min-width: 200px;
+  background-color: #FFFFFF;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+
+#dropdownButton:active, #dropdownButton:hover, #dropdownButton:focus {
+  background-color: #E7F5FF;
+  color: #000000;
+  border-color: #808080;
+}
+
+.dropdown-toggle::after {
+  margin-left: 70% !important;
+  color: #000000;
+}
+
+.dropdown-menu {
+  min-width: 12.5rem !important;
+}
+
+.dropdown-menu .dropdown-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu .dropdown-item:last-of-type {
+  border-bottom: none;
+}
+
+.dropdown-menu .dropdown-item:active, .dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:focus {
+  background-color: #E7F5FF !important;
+}
+
+.dropdown-menu .dropdown-item:active {
+  color: #000000;
+}
+
+.dropdown-menu.show {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 /*# sourceMappingURL=Dropdown.css.map */

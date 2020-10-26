@@ -43,6 +43,34 @@
   font-family: "Roboto", serif;
 }
 
+.textarea-field .simple-input::-webkit-input-placeholder {
+  opacity: 0.5;
+}
+
+.textarea-field .simple-input:-ms-input-placeholder {
+  opacity: 0.5;
+}
+
+.textarea-field .simple-input::-ms-input-placeholder {
+  opacity: 0.5;
+}
+
+.textarea-field .simple-input::placeholder {
+  opacity: 0.5;
+}
+
+.textarea-field .simple-input:-ms-input-placeholder, .textarea-field .simple-input:-ms-input-placeholder, .textarea-field .simple-input::-ms-input-placeholder {
+  color: #808080;
+}
+
+.textarea-field .simple-input::-ms-input-placeholder, .textarea-field .simple-input:-ms-input-placeholder, .textarea-field .simple-input::-ms-input-placeholder {
+  color: #808080;
+}
+
+.textarea-field .simple-input::placeholder, .textarea-field .simple-input:-ms-input-placeholder, .textarea-field .simple-input::-ms-input-placeholder {
+  color: #808080;
+}
+
 .textarea-field .input-label {
   font-family: "Roboto Condensed", serif;
   font-weight: 700 !important;

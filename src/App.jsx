@@ -5,8 +5,8 @@ import PatientForecast from './components/patientForecast/PatientForecast';
 import Pricing from './components/pricing/Pricing';
 import Input from './components/common/Input';
 import Textarea from './components/common/Textarea';
-import SearchField from './components/searchField/searchField';
 import Dropdown from './components/common/Dropdown';
+import SearchField from './components/searchField/searchField';
 import { Switch, Route } from 'react-router-dom';
 import './App.css';
 
@@ -24,7 +24,7 @@ function App() {
           <Input label='Form Label' />
           <SearchField />
           <Textarea label='Text (Optional)' />
-          <Dropdown label='Dropdown Label' options={[{ value: 'USA', title: 'USA' }, { value: 'EMEA', title: 'EMEA' }]} />
+          <Dropdown />
           <Switch>
             <Route exact path="/">
               <PatientForecast />

@@ -12,6 +12,14 @@
         color: #212121;
         padding: 8px;
         font-family: $roboto;
+
+        &::placeholder {
+            opacity: 0.5;
+        }
+
+        &::placeholder, &:-ms-input-placeholder, &::-ms-input-placeholder {
+            color: $gray;
+        }
     }
 
     .input-label {
@@ -20,4 +28,6 @@
         text-align: left;
         padding: 8px 0;
     }
+
+    
 }

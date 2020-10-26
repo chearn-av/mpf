@@ -56,7 +56,7 @@
           align-items: center;
 }
 
-.navigation-option:hover #Icon-Color, .navigation-option:hover #path-1, .navigation-option:hover #calendar, .navigation-option:hover #clock, .navigation-option:hover #Combined-Shape {
+.navigation-option:hover #Icon-Color, .navigation-option:hover #path-1, .navigation-option:hover #ic-graph-bar #Icon, .navigation-option:hover #ic-report #Icon, .navigation-option:hover #ic-clock #Icon, .navigation-option:hover #Combined-Shape, .navigation-option:focus #Icon-Color, .navigation-option:focus #path-1, .navigation-option:focus #ic-graph-bar #Icon, .navigation-option:focus #ic-report #Icon, .navigation-option:focus #ic-clock #Icon, .navigation-option:focus #Combined-Shape {
   fill: #000000;
 }
 
@@ -93,11 +93,11 @@
   display: block;
 }
 
-.active-navigation.link #Icon-Color, .active-navigation.link #path-1, .active-navigation.link #calendar, .active-navigation.link #clock, .active-navigation.link #combined-shape {
+.active-navigation.link #Icon-Color, .active-navigation.link #path-1, .active-navigation.link #ic-graph-bar #Icon, .active-navigation.link #ic-report #Icon, .active-navigation.link #ic-clock #Icon, .active-navigation.link #Combined-Shape {
   fill: #FFFFFF;
 }
 
-.active-navigation.link:hover #Icon-Color, .active-navigation.link:hover #path-1, .active-navigation.link:hover #calendar, .active-navigation.link:hover #clock, .active-navigation.link:hover #combined-shape {
+.active-navigation.link:hover #Icon-Color, .active-navigation.link:hover #path-1, .active-navigation.link:hover #ic-graph-bar #Icon, .active-navigation.link:hover #ic-report #Icon, .active-navigation.link:hover #ic-clock #Icon, .active-navigation.link:hover #Combined-Shape {
   fill: #FFFFFF;
 }
 

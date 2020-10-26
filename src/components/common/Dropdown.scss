@@ -1,9 +1,52 @@
+@import '../../Themes/variables.scss';
+
 .label {
-  color: gray;
+  color: $gray;
 }
 
-.dropdown {
+#dropdownButton {
   border-radius: 3px;
-  border-color: gray;
-  min-width: 100px;
+  border-color: $gray;
+  min-width: 200px;
+  background-color: $white;
+  color: rgba(0,0,0, 0.5);
+  text-align: left;
+
+
+  &:active, &:hover, &:focus {
+    background-color: #E7F5FF;
+    color: $black;
+    border-color: $gray;
+  }
+
+}
+
+.dropdown-toggle::after {
+    margin-left: 70% !important;
+    color: $black;
+  }
+
+.dropdown-menu {
+  min-width: 12.5rem !important;
+  .dropdown-item {
+    border-bottom: 1px solid rgba(0,0,0, 0.1);
+    &:last-of-type {
+      border-bottom: none;
+    }
+
+    &:active, &:hover, &:focus {
+      background-color: #E7F5FF !important;
+    }
+
+    &:active {
+      color: $black;
+    }
+  }
+}
+
+
+
+.dropdown-menu.show {
+  padding-top: 0;
+  padding-bottom: 0;
 }

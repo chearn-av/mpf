@@ -20,6 +20,15 @@
         &:active, &:hover, &:focus, &:disabled {
             background-color: #E7F5FF;
         }
+
+        &::placeholder {
+            opacity: 0.5;
+        }
+
+        &::placeholder, &:-ms-input-placeholder, &::-ms-input-placeholder {
+            color: $gray;
+        }
+
     }
 
     .input-label {
