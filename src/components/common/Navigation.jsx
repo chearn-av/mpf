@@ -6,6 +6,8 @@ import { ReactComponent as ReportIcon } from 'Icons/ic-report.svg';
 import { ReactComponent as SettingsIcon } from 'Icons/ic-settings.svg';
 import { ReactComponent as GraphIcon } from 'Icons/ic-line-graph.svg';
 import { ReactComponent as CalendarIcon } from 'Icons/ic-calendar.svg';
+import { ReactComponent as CaretDown } from 'Icons/ic-caret-down.svg';
+import { ReactComponent as CaretUp } from 'Icons/ic-caret-up.svg';
 import { ReactComponent as ClockIcon } from 'Icons/ic-clock.svg';
 import './Navigation.scss';
 
@@ -37,8 +39,20 @@ function Navigation(props) {
       {props.forecastSelected &&
         <NavLink className="link" activeClassName="active-navigation" to="/events">
           <div className='navigation-option'>
-            <CalendarIcon className="icon" />
+            <div className='dropdown-icons'>
+              <CalendarIcon className="icon" />
+              <CaretUp className='caret-up' />
+              <CaretDown className='caret-down' />
+            </div>
             EVENTS
+          </div>
+          <div className='dropdown'>
+            <NavLink className='dropdown-link' activeClassName='active-navigation-dropdown' to="/events/annual">ANNUAL</NavLink>
+            <NavLink className='dropdown-link' activeClassName='active-navigation-dropdown' to="/events/synopsis">SYNOPSIS</NavLink>
+            <NavLink className='dropdown-link' activeClassName='active-navigation-dropdown' to="/events/comprehensive">COMPREHENSIVE</NavLink>
+            <NavLink className='dropdown-link' activeClassName='active-navigation-dropdown' to="/events/re-challenge">RE-CHALLENGE</NavLink>
+            <NavLink className='dropdown-link' activeClassName='active-navigation-dropdown' to="/events/maintenance">MAINTENANCE</NavLink>
+            <NavLink className='dropdown-link' activeClassName='active-navigation-dropdown' to="/events/eap">EAP (?)</NavLink>
           </div>
         </NavLink>
       }
@@ -52,8 +66,17 @@ function Navigation(props) {
       }
       <NavLink className="link" activeClassName="active-navigation" to="/pricing">
         <div className='navigation-option'>
-          <PricingIcon className="icon" />
+          <div className='dropdown-icons'>
+            <PricingIcon className="icon" />
+            <CaretUp className='caret-up' />
+            <CaretDown className='caret-down' />
+          </div>
           PRICING
+        </div>
+        <div className='dropdown'>
+          <NavLink className='dropdown-link' activeClassName='active-navigation-dropdown' to="/pricing/events">PRICING EVENTS</NavLink>
+          <NavLink className='dropdown-link' activeClassName='active-navigation-dropdown' to="/pricing/dosing">DOSING OPTIONS</NavLink>
+          <NavLink className='dropdown-link' activeClassName='active-navigation-dropdown' to="/pricing/summary">SUMMARY & OVERRIDE</NavLink>
         </div>
       </NavLink>
       <NavLink className="link" activeClassName="active-navigation" to="/reports">

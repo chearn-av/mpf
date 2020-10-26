@@ -3,19 +3,19 @@
 .navigation {
   display: flex;
   flex-direction: column;
-  width: 342px;
   box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
 }
 
 .navigation-option {
-  height: 80px;
+  height: 186px;
+  width: 342px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 12px;
   border-bottom: 1px solid $gray;
   font-family: $roboto-label;
   font-weight: 700;
+  align-items: center;
 
   &:hover {
     #Icon-Color, #path-1, #calendar, #clock, #Combined-Shape {
@@ -26,14 +26,17 @@
 
 .icon {
   display: block;
-  margin: auto;
-  height: 72px;
-  width: 72px;
+  height: 76px;
+  width: 76px;
 }
 
 .link {
   text-decoration: none;
   color: $gray;
+
+  .dropdown, .caret-up {
+    display: none;
+  }
 
   &:hover, &:focus {
     color: $black;
@@ -45,6 +48,14 @@
   background-color: $merck-teal;
   color: $white;
 
+  .caret-down {
+    display: none;
+  }
+  
+  .caret-up, .dropdown {
+    display: block;
+  }
+
   #Icon-Color, #path-1, #calendar, #clock, #combined-shape {
     fill: $white;
   }
@@ -54,5 +65,43 @@
       fill: $white;
     }
   }
+}
 
+.dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+.active-navigation-dropdown {
+  background-color: $white !important;
+  color: $black !important;
+}
+
+.dropdown-link {
+  text-decoration: none;
+  color: $gray;
+  background-color: $dropdown-background;
+  border-bottom: 1px solid $gray;
+  font-family: $roboto-label;
+  font-weight: 700;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover, &:focus {
+    color: $black;
+    text-decoration: underline;
+  }
+}
+
+.dropdown-icons {
+  display: flex;
+  margin-left: 32px;
+}
+
+.caret-up, .caret-down {
+  height: 32px;
+  width: 32px;
+  margin-top: auto;
 }
