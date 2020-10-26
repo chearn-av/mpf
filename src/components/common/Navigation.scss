@@ -3,7 +3,7 @@
 .navigation {
   display: flex;
   flex-direction: column;
-  width: 342px;
+  width: 14%;
   box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
 }
 
@@ -17,8 +17,8 @@
   font-family: $roboto-label;
   font-weight: 700;
 
-  &:hover {
-    #Icon-Color, #path-1, #calendar, #clock, #Combined-Shape {
+  &:hover, &:focus {
+    #Icon-Color, #path-1, #ic-graph-bar #Icon, #ic-report #Icon, #ic-clock #Icon, #Combined-Shape {
       fill: $black;
     }
   }
@@ -45,12 +45,12 @@
   background-color: $merck-teal;
   color: $white;
 
-  #Icon-Color, #path-1, #calendar, #clock, #combined-shape {
+  #Icon-Color, #path-1, #ic-graph-bar #Icon, #ic-report #Icon, #ic-clock #Icon, #Combined-Shape {
     fill: $white;
   }
 
   &:hover {
-    #Icon-Color, #path-1, #calendar, #clock, #combined-shape {
+    #Icon-Color, #path-1, #ic-graph-bar #Icon, #ic-report #Icon, #ic-clock #Icon, #Combined-Shape {
       fill: $white;
     }
   }

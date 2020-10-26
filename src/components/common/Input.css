@@ -52,6 +52,34 @@
   background-color: #E7F5FF;
 }
 
+.input-field .simple-input::-webkit-input-placeholder {
+  opacity: 0.5;
+}
+
+.input-field .simple-input:-ms-input-placeholder {
+  opacity: 0.5;
+}
+
+.input-field .simple-input::-ms-input-placeholder {
+  opacity: 0.5;
+}
+
+.input-field .simple-input::placeholder {
+  opacity: 0.5;
+}
+
+.input-field .simple-input:-ms-input-placeholder, .input-field .simple-input:-ms-input-placeholder, .input-field .simple-input::-ms-input-placeholder {
+  color: #808080;
+}
+
+.input-field .simple-input::-ms-input-placeholder, .input-field .simple-input:-ms-input-placeholder, .input-field .simple-input::-ms-input-placeholder {
+  color: #808080;
+}
+
+.input-field .simple-input::placeholder, .input-field .simple-input:-ms-input-placeholder, .input-field .simple-input::-ms-input-placeholder {
+  color: #808080;
+}
+
 .input-field .input-label {
   font-family: "Roboto Condensed", serif;
   font-weight: 700 !important;

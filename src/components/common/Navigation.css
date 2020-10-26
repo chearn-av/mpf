@@ -31,7 +31,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 342px;
+  width: 14%;
   -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
           box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
@@ -54,7 +54,7 @@
   font-weight: 700;
 }
 
-.navigation-option:hover #Icon-Color, .navigation-option:hover #path-1, .navigation-option:hover #calendar, .navigation-option:hover #clock, .navigation-option:hover #Combined-Shape {
+.navigation-option:hover #Icon-Color, .navigation-option:hover #path-1, .navigation-option:hover #ic-graph-bar #Icon, .navigation-option:hover #ic-report #Icon, .navigation-option:hover #ic-clock #Icon, .navigation-option:hover #Combined-Shape, .navigation-option:focus #Icon-Color, .navigation-option:focus #path-1, .navigation-option:focus #ic-graph-bar #Icon, .navigation-option:focus #ic-report #Icon, .navigation-option:focus #ic-clock #Icon, .navigation-option:focus #Combined-Shape {
   fill: #000000;
 }
 
@@ -70,48 +70,21 @@
   color: #808080;
 }
 
-.active-navigation {
+.link:hover, .link:focus {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.active-navigation.link {
   background-color: #00857c;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
-.active-navigation #Icon-Color {
-  fill: #ffffff;
+.active-navigation.link #Icon-Color, .active-navigation.link #path-1, .active-navigation.link #ic-graph-bar #Icon, .active-navigation.link #ic-report #Icon, .active-navigation.link #ic-clock #Icon, .active-navigation.link #Combined-Shape {
+  fill: #FFFFFF;
 }
 
-.active-navigation #path-1 {
-  fill: #ffffff;
-}
-
-.active-navigation #calendar {
-  fill: #ffffff;
-}
-
-.active-navigation #clock {
-  fill: #ffffff;
-}
-
-.active-navigation #combined-shape {
-  fill: #ffffff;
-}
-
-.active-navigation:hover #Icon-Color {
-  fill: #ffffff;
-}
-
-.active-navigation:hover #path-1 {
-  fill: #ffffff;
-}
-
-.active-navigation:hover #calendar {
-  fill: #ffffff;
-}
-
-.active-navigation:hover #clock {
-  fill: #ffffff;
-}
-
-.active-navigation:hover #combined-shape {
-  fill: #ffffff;
+.active-navigation.link:hover #Icon-Color, .active-navigation.link:hover #path-1, .active-navigation.link:hover #ic-graph-bar #Icon, .active-navigation.link:hover #ic-report #Icon, .active-navigation.link:hover #ic-clock #Icon, .active-navigation.link:hover #Combined-Shape {
+  fill: #FFFFFF;
 }
 /*# sourceMappingURL=Navigation.css.map */
