@@ -6,11 +6,13 @@
 
 #dropdownButton {
   border-radius: 3px;
-  border-color: $gray;
+  border-color: $border-gray;
   min-width: 200px;
   background-color: $white;
   color: rgba(0,0,0, 0.5);
-  text-align: left;
+  width: 25%;
+  height: 38px;
+  margin: auto;
 
 
   &:active, &:hover, &:focus {
@@ -22,12 +24,13 @@
 }
 
 .dropdown-toggle::after {
-    margin-left: 70% !important;
+    margin-left: 75% !important;
     color: $black;
   }
 
 .dropdown-menu {
-  min-width: 12.5rem !important;
+  min-width: 14.25rem !important;
+
   .dropdown-item {
     border-bottom: 1px solid rgba(0,0,0, 0.1);
     &:last-of-type {

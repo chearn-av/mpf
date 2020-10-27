@@ -7,6 +7,7 @@ import Input from './components/common/Input';
 import Textarea from './components/common/Textarea';
 import Dropdown from './components/common/Dropdown';
 import SearchField from './components/searchField/searchField';
+import CategorySearchField from './components/searchField/categorySearchField';
 import { Switch, Route } from 'react-router-dom';
 import './App.css';
 
@@ -23,6 +24,7 @@ function App() {
           <Input disabled={true} />
           <Input label='Form Label' />
           <SearchField />
+          <CategorySearchField label="Search Field"/>
           <Textarea label='Text (Optional)' />
           <Dropdown />
           <Switch>

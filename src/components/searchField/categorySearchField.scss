@@ -1,0 +1,63 @@
+@import '../common/Dropdown.scss';
+
+.category-search {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+    .input-group {
+        width: 70%;
+        margin: auto;
+
+        .simple-input {
+            height: 38px;
+            border: 1px solid $border-gray;
+            color: #212121;
+            padding-left: 16px;
+            font-family: $roboto;
+            background: url('../../Icons/ic-search.svg');
+            background-repeat: no-repeat;
+            background-position: 2% 50%;
+            background-size: 16px;
+            padding-left: 32px;
+            
+            &:disabled {
+                opacity: 0.6;
+                cursor: not-allowed;
+            }
+
+            &::placeholder {
+                opacity: 0.5;
+            }
+
+            &:active, &:hover, &:focus, &:disabled {
+                background-color: #E7F5FF;
+            }
+
+            &::placeholder, &:-ms-input-placeholder, &::-ms-input-placeholder {
+                color: $gray;
+            }
+
+        }
+
+        .input-label {
+            font-family: $roboto-label;
+            font-weight: 700 !important;
+            text-align: left;
+            padding: 8px 0;
+            width: 100%;
+        }
+
+        #dropdownButton {
+            border-color: $border-gray;
+            border-left: none;
+            height: 38px;
+            min-width: 100px;
+        }
+
+        .dropdown-toggle::after {
+            margin-left: 35% !important;
+        }
+    }
+    
+}
