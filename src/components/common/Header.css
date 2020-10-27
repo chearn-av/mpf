@@ -25,7 +25,7 @@
 
 .header {
   background-color: #00857c;
-  height: 195px;
+  height: 97px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,15 +40,16 @@
 
 .header-logo {
   margin-left: 14px;
+  height: 41px;
 }
 
 .header-title {
   color: #F7F7F7;
-  font-size: 47px;
+  font-size: 24px;
   font-weight: 500;
   letter-spacing: 0.23px;
   line-height: 55px;
-  margin-left: 163px;
+  margin-left: 81px;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;

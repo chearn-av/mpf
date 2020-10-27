@@ -2,7 +2,7 @@
 
 .header {
   background-color: $merck-teal;
-  height: 195px;
+  height: 97px;
   display: flex;
   color: $merck-off-white;
   align-items: center;
@@ -11,15 +11,16 @@
 
 .header-logo {
   margin-left: 14px;
+  height: 41px;
 }
 
 .header-title {
   color: #F7F7F7;
-  font-size: 47px;
+  font-size: 24px;
   font-weight: 500;
   letter-spacing: 0.23px;
   line-height: 55px;
-  margin-left: 163px;
+  margin-left: 81px;
   flex-grow: 1;
   text-align: left;
   font-family: $roboto-label;

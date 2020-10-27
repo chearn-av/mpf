@@ -16,8 +16,8 @@
 }
 
 .navigation-option {
-  height: 186px;
-  width: 342px;
+  height: 93px;
+  width: 171px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,8 +35,8 @@
 
 .icon {
   display: block;
-  height: 76px;
-  width: 76px;
+  height: 32px;
+  width: 32px;
 }
 
 .link {
@@ -87,7 +87,7 @@
   border-bottom: 1px solid $gray;
   font-family: $roboto-label;
   font-weight: 700;
-  height: 85px;
+  height: 42px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,7 +100,7 @@
 
 .dropdown-icons {
   display: flex;
-  margin-left: 32px;
+  margin-left: 16px;
 }
 
 .dropdown-open {
@@ -114,7 +114,7 @@
 }
 
 .caret-up, .caret-down {
-  height: 32px;
-  width: 32px;
+  height: 16px;
+  width: 16px;
   margin-top: auto;
 }
