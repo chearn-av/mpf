@@ -4,6 +4,15 @@
   display: flex;
   flex-direction: column;
   box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5);
+
+  .card {
+    border: none;
+    border-radius: 0;
+  }
+
+  .card-header {
+    padding: 0;
+  }
 }
 
 .navigation-option {
@@ -45,15 +54,9 @@
 }
 
 .active-navigation.link {
-  background-color: $merck-teal;
-  color: $white;
-
-  .caret-down {
-    display: none;
-  }
-  
-  .caret-up, .dropdown {
-    display: block;
+  .navigation-option {
+    background-color: $merck-teal;
+    color: $white;
   }
 
   #Icon-Color, #path-1, #ic-graph-bar #Icon, #ic-report #Icon, #ic-clock #Icon, #Combined-Shape {
@@ -98,6 +101,16 @@
 .dropdown-icons {
   display: flex;
   margin-left: 32px;
+}
+
+.dropdown-open {
+  .caret-down {
+    display: none;
+  }
+  
+  .caret-up, .dropdown {
+    display: block;
+  }
 }
 
 .caret-up, .caret-down {

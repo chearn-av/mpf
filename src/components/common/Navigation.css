@@ -35,6 +35,15 @@
           box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
+.navigation .card {
+  border: none;
+  border-radius: 0;
+}
+
+.navigation .card-header {
+  padding: 0;
+}
+
 .navigation-option {
   height: 186px;
   width: 342px;
@@ -80,17 +89,9 @@
   text-decoration: underline;
 }
 
-.active-navigation.link {
+.active-navigation.link .navigation-option {
   background-color: #00857c;
   color: #FFFFFF;
-}
-
-.active-navigation.link .caret-down {
-  display: none;
-}
-
-.active-navigation.link .caret-up, .active-navigation.link .dropdown {
-  display: block;
 }
 
 .active-navigation.link #Icon-Color, .active-navigation.link #path-1, .active-navigation.link #ic-graph-bar #Icon, .active-navigation.link #ic-report #Icon, .active-navigation.link #ic-clock #Icon, .active-navigation.link #Combined-Shape {
@@ -145,6 +146,14 @@
   display: -ms-flexbox;
   display: flex;
   margin-left: 32px;
+}
+
+.dropdown-open .caret-down {
+  display: none;
+}
+
+.dropdown-open .caret-up, .dropdown-open .dropdown {
+  display: block;
 }
 
 .caret-up, .caret-down {
