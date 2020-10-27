@@ -33,7 +33,9 @@
   min-width: 200px;
   background-color: #FFFFFF;
   color: rgba(0, 0, 0, 0.5);
-  text-align: left;
+  width: 25%;
+  height: 38px;
+  margin: auto;
 }
 
 #dropdownButton:active, #dropdownButton:hover, #dropdownButton:focus {
@@ -43,12 +45,12 @@
 }
 
 .dropdown-toggle::after {
-  margin-left: 70% !important;
+  margin-left: 75% !important;
   color: #000000;
 }
 
 .dropdown-menu {
-  min-width: 12.5rem !important;
+  min-width: 14.25rem !important;
 }
 
 .dropdown-menu .dropdown-item {
