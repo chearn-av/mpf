@@ -1,13 +1,12 @@
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
-.App {
-  text-align: center;
-}
-
 .contents {
   display: flex;
 }
 
 .body {
   flex-grow: 1;
+  color: #9ca4ab;
+  background-color: rgb(231, 231, 231);
+  // will make these colors/vars once sass files are setup to be compliled.
 }
