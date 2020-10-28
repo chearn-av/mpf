@@ -1,4 +1,5 @@
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import './Themes/variables.scss';
 
 .contents {
   display: flex;
@@ -9,4 +10,13 @@
   color: #9ca4ab;
   background-color: rgb(231, 231, 231);
   // will make these colors/vars once sass files are setup to be compliled.
+
+  .input-label, .label {
+    font-family: $roboto-label;
+    font-weight: 700 !important;
+    text-align: left;
+    padding: 8px 0;
+    margin-bottom: 0;
+  }
+
 }

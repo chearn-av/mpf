@@ -26,7 +26,7 @@ function App() {
           <SearchField />
           <CategorySearchField label="Search Field"/>
           <Textarea label='Text (Optional)' />
-          <Dropdown />
+          <Dropdown label='Dropdown' />
           <Switch>
             <Route exact path="/">
               <PatientForecast />
