@@ -73,7 +73,7 @@ function Navigation(props) {
         <Card>
           <Card.Header>
             <ContextAwareToggle eventKey="3" openClassname="dropdown-open">
-              <NavLink className="link" activeClassName="active-navigation" to="/events">
+              <NavLink className="link" activeClassName="active-navigation" to="/events/all">
                 <div className='navigation-option'>
                   <div className='dropdown-icons'>
                     <CalendarIcon className="icon" />
@@ -112,7 +112,7 @@ function Navigation(props) {
       <Card>
         <Card.Header>
           <ContextAwareToggle eventKey="5" openClassname="dropdown-open">
-            <NavLink className="link" activeClassName="active-navigation" to="/pricing">
+            <NavLink className="link" activeClassName="active-navigation" to="/pricing/all">
               <div className='navigation-option'>
                 <div className='dropdown-icons'>
                   <PricingIcon className="icon" />

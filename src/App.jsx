@@ -3,6 +3,9 @@ import Header from './components/common/Header';
 import Navigation from './components/common/Navigation';
 import PatientForecast from './components/patientForecast/PatientForecast';
 import Pricing from './components/pricing/Pricing';
+import PricingEvents from './components/pricingEvents/PricingEvents';
+import PricingDosing from './components/pricingDosing/PricingDosing';
+import PricingSummary from './components/pricingSummary/PricingSummary';
 import Input from './components/common/Input';
 import Textarea from './components/common/Textarea';
 import Dropdown from './components/common/Dropdown';
@@ -24,15 +27,24 @@ function App() {
           <Input disabled={true} />
           <Input label='Form Label' />
           <SearchField />
-          <CategorySearchField label="Search Field"/>
+          <CategorySearchField label="Search Field" />
           <Textarea label='Text (Optional)' />
           <Dropdown />
           <Switch>
             <Route exact path="/">
               <PatientForecast />
             </Route>
-            <Route path="/pricing">
+            <Route path="/pricing/all">
               <Pricing />
+            </Route>
+            <Route path="/pricing/events">
+              <PricingEvents />
+            </Route>
+            <Route path="/pricing/dosing">
+              <PricingDosing />
+            </Route>
+            <Route path="/pricing/summary">
+              <PricingSummary />
             </Route>
           </Switch>
         </div>
