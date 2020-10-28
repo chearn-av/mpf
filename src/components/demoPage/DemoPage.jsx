@@ -14,7 +14,7 @@ function DemoPage() {
       <SearchField />
       <CategorySearchField label="Search Field" />
       <Textarea label='Text (Optional)' />
-      <Dropdown />
+      <Dropdown label='Dropdown' />
     </div>
   );
 }
