@@ -70,11 +70,4 @@
 .textarea-field .simple-input::placeholder, .textarea-field .simple-input:-ms-input-placeholder, .textarea-field .simple-input::-ms-input-placeholder {
   color: #808080;
 }
-
-.textarea-field .input-label {
-  font-family: "Roboto Condensed", serif;
-  font-weight: 700 !important;
-  text-align: left;
-  padding: 8px 0;
-}
 /*# sourceMappingURL=Textarea.css.map */

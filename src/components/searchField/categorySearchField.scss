@@ -1,13 +1,11 @@
 @import '../common/Dropdown.scss';
 
 .category-search {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     margin: 20px;
 
     .input-group {
-        width: 70%;
-        margin: auto;
 
         .simple-input {
             height: 38px;
@@ -16,8 +14,9 @@
             padding-left: 16px;
             font-family: $roboto;
             background: url('../../Icons/ic-search.svg');
+            background-color: $white;
             background-repeat: no-repeat;
-            background-position: 2% 50%;
+            background-position: 3% 50%;
             background-size: 16px;
             padding-left: 32px;
             

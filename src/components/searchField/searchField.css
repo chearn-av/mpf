@@ -89,6 +89,7 @@
 
 .search-field .simple-input {
   background: url("../../Icons/ic-search.svg");
+  background-color: #FFFFFF;
   background-repeat: no-repeat;
   background-position: 5% 50%;
   background-size: 16px;

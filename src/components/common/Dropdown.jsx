@@ -4,7 +4,7 @@ import { Dropdown } from 'react-bootstrap';
 
 function DropDown(props) {
   return (
-    <div>
+    <div className="dropdown-component">
       {props.label && <div className="label">{props.label}</div>}
       <Dropdown>
         <Dropdown.Toggle className='dropdown' id="dropdownButton">Select</Dropdown.Toggle>

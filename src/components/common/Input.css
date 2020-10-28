@@ -79,11 +79,4 @@
 .input-field .simple-input::placeholder, .input-field .simple-input:-ms-input-placeholder, .input-field .simple-input::-ms-input-placeholder {
   color: #808080;
 }
-
-.input-field .input-label {
-  font-family: "Roboto Condensed", serif;
-  font-weight: 700 !important;
-  text-align: left;
-  padding: 8px 0;
-}
 /*# sourceMappingURL=Input.css.map */

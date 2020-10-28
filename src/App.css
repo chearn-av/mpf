@@ -4,6 +4,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10802,6 +10803,30 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+.merck-icon {
+  height: 24px;
+  width: 24px;
+  padding: 8px;
+}
+
+.nav-section {
+  height: 342px;
+  width: 186px;
+}
+
+.nav-icon {
+  height: 76px;
+  width: 76px;
+}
+
+@media only screen and (min-width: 3800px) {
+  .merck-icon {
+    height: 57px;
+    width: 57px;
+    padding: 19px;
+  }
+}
+
 .contents {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10814,5 +10839,13 @@ a.text-dark:hover, a.text-dark:focus {
           flex-grow: 1;
   color: #9ca4ab;
   background-color: #e7e7e7;
+}
+
+.body .input-label, .body .label {
+  font-family: "Roboto Condensed", serif;
+  font-weight: 700 !important;
+  text-align: left;
+  padding: 8px 0;
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=App.css.map */
