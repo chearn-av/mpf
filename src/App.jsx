@@ -6,12 +6,8 @@ import Pricing from './components/pricing/Pricing';
 import PricingEvents from './components/pricingEvents/PricingEvents';
 import PricingDosing from './components/pricingDosing/PricingDosing';
 import PricingSummary from './components/pricingSummary/PricingSummary';
-import Input from './components/common/Input';
-import Textarea from './components/common/Textarea';
-import Dropdown from './components/common/Dropdown';
-import SearchField from './components/searchField/searchField';
-import CategorySearchField from './components/searchField/categorySearchField';
-import { Switch, Route } from 'react-router-dom';
+import DemoPage from './components/demoPage/DemoPage';
+import { Switch, Route, NavLink } from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -23,15 +19,14 @@ function App() {
       <div className="contents">
         <Navigation forecastSelected={true} />
         <div className="body">
-          <Input />
-          <Input disabled={true} />
-          <Input label='Form Label' />
-          <SearchField />
-          <CategorySearchField label="Search Field" />
-          <Textarea label='Text (Optional)' />
-          <Dropdown />
+          <NavLink to="/">
+            all components
+          </NavLink>
           <Switch>
             <Route exact path="/">
+              <DemoPage />
+            </Route>
+            <Route exact path="/patient-forecast">
               <PatientForecast />
             </Route>
             <Route path="/pricing/all">

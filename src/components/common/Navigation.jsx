@@ -37,7 +37,7 @@ function Navigation(props) {
     <Accordion className='navigation'>
       <Card>
         <Accordion.Toggle as={Card.Header} eventKey="0">
-          <NavLink className="link" activeClassName="active-navigation" to="/" exact>
+          <NavLink className="link" activeClassName="active-navigation" to="/patient-forecast">
             <div className='navigation-option'>
               <SearchIcon className="icon" />
               <div>PATIENT FORECASTS</div>

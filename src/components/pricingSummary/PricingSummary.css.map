@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "PricingEvents.scss"
+        "PricingSummary.scss"
     ],
     "names": [],
-    "file": "PricingEvents.css"
+    "file": "PricingSummary.css"
 }
