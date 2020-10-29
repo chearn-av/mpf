@@ -4,6 +4,8 @@ import Textarea from '../common/Textarea';
 import Dropdown from '../common/Dropdown';
 import SearchField from '../searchField/searchField';
 import CategorySearchField from '../searchField/categorySearchField';
+import RichGridDeclarativeExample from "../gridRichDataExample/RichGridDeclarativeExample";
+import './DemoPage.css';
 
 function DemoPage() {
   return (
@@ -15,6 +17,9 @@ function DemoPage() {
       <CategorySearchField label="Search Field" />
       <Textarea label='Text (Optional)' />
       <Dropdown label='Dropdown' />
+      <div className="grid">
+        <RichGridDeclarativeExample />
+      </div>
     </div>
   );
 }
