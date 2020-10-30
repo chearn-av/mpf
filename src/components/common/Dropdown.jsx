@@ -1,6 +1,12 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Dropdown } from 'react-bootstrap';
 
+/********************************************************
+ * Dropdown Props
+ * label: string
+ * options: array [{eventKey: string, label: string}, ...]
+*********************************************************/
 function DropDown(props) {
   return (
     <div className="dropdown-component">
@@ -8,22 +14,18 @@ function DropDown(props) {
       <Dropdown>
         <Dropdown.Toggle className='dropdown' id="dropdownButton">Select</Dropdown.Toggle>
         <Dropdown.Menu>
-          <Dropdown.Item eventKey='1'>U.S.</Dropdown.Item>
-          <Dropdown.Item eventKey='2'>Canada</Dropdown.Item>
-          <Dropdown.Item eventKey='3'>France</Dropdown.Item>
+          {props.options.map(option =>
+            <Dropdown.Item eventKey={option.eventKey}>{option.label}</Dropdown.Item>
+          )}
         </Dropdown.Menu>
       </Dropdown>
     </div>
   );
 }
 
-export default DropDown;
+DropDown.propTypes = {
+  label: PropTypes.string,
+  options: PropTypes.array.isRequired
+}
 
-/*
- <select className="dropdown" onChange={props.onChange ? props.onChange : null}>
-        <option defaultValue disabled hidden key={0}>Select</option>
-        {props.options.map((option, index) =>
-          <option key={index + 1} value={option.value}>{option.title}</option>
-        )}
-      </select>
- */
+export default DropDown;
