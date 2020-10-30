@@ -10843,7 +10843,7 @@ a.text-dark:hover, a.text-dark:focus {
   color: #ffffff !important;
 }
 
-.btn-default:hover {
+.btn-default:hover, .btn-default:focus {
   color: #AAF5DF !important;
 }
 
@@ -10852,7 +10852,7 @@ a.text-dark:hover, a.text-dark:focus {
   color: #ffffff !important;
 }
 
-.btn-secondary:hover {
+.btn-secondary:hover, .btn-secondary:focus {
   color: #AAF5DF !important;
 }
 

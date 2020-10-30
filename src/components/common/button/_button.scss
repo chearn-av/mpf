@@ -17,7 +17,7 @@
     background-color: $merck-teal !important;
     color: #ffffff !important;
 
-    &:hover {
+    &:hover, &:focus {
         color: #AAF5DF !important;
     }
 }
@@ -26,7 +26,7 @@
     background-color: $merck-blue !important;
     color: #ffffff !important;
 
-    &:hover {
+    &:hover, &:focus {
         color: #AAF5DF !important;
     }
 
