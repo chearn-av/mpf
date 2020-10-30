@@ -4,10 +4,15 @@ import Textarea from '../common/Textarea';
 import Dropdown from '../common/Dropdown';
 import SearchField from '../searchField/searchField';
 import CategorySearchField from '../searchField/categorySearchField';
+import MerckButton from '../common/button/Button';
+import AddWhite from '../../Icons/ic-add-white.svg';
 
 function DemoPage() {
   return (
     <div>
+        <MerckButton image={AddWhite} label='Primary' variant='default' size='sm'/>
+        <MerckButton label='Secondary' variant='secondary' size='sm'/>
+        <MerckButton label='Third' variant='tertiary' size='sm'/>
       <Input />
       <Input disabled={true} />
       <Input label='Form Label' />

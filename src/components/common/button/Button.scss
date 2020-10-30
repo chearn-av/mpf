@@ -1,0 +1,41 @@
+@import '../../../Themes/variables';
+//Border Radius Needs to be fixed
+//Color for tertiary needs to be fixed
+//Fix Important tags.
+
+.btn {
+    border-radius: .10rem;
+    margin: 20px;
+
+    img {
+        height: 20px;
+        width: auto;
+        margin-right: 5px;
+    }
+}
+
+.btn-default {
+    background-color: $merck-teal !important;
+    color: #ffffff !important;
+
+    &:hover {
+        color: #AAF5DF !important;
+    }
+}
+
+.btn-secondary {
+    background-color: $merck-blue !important;
+    color: #ffffff !important;
+
+    &:hover {
+        color: #AAF5DF !important;
+    }
+
+}
+
+.btn-tertiary {
+    background-color: $dropdown-background !important;
+    color: #3e3f42 !important;
+    border: 1px solid $border-gray !important;
+
+}
