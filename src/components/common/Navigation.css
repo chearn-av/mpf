@@ -98,7 +98,11 @@
   fill: #FFFFFF;
 }
 
-.active-navigation.link:hover #Icon-Color, .active-navigation.link:hover #path-1, .active-navigation.link:hover #ic-graph-bar #Icon, .active-navigation.link:hover #ic-report #Icon, .active-navigation.link:hover #ic-clock #Icon, .active-navigation.link:hover #Combined-Shape {
+.active-navigation.link:hover, .active-navigation.link:focus {
+  color: #FFFFFF;
+}
+
+.active-navigation.link:hover #Icon-Color, .active-navigation.link:hover #path-1, .active-navigation.link:hover #ic-graph-bar #Icon, .active-navigation.link:hover #ic-report #Icon, .active-navigation.link:hover #ic-clock #Icon, .active-navigation.link:hover #Combined-Shape, .active-navigation.link:focus #Icon-Color, .active-navigation.link:focus #path-1, .active-navigation.link:focus #ic-graph-bar #Icon, .active-navigation.link:focus #ic-report #Icon, .active-navigation.link:focus #ic-clock #Icon, .active-navigation.link:focus #Combined-Shape {
   fill: #FFFFFF;
 }
 

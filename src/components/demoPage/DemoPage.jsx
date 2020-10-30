@@ -4,6 +4,7 @@ import Textarea from '../common/Textarea';
 import Dropdown from '../common/Dropdown';
 import SearchField from '../searchField/searchField';
 import CategorySearchField from '../searchField/categorySearchField';
+import Checkbox from '../common/Checkbox';
 
 function DemoPage() {
   return (
@@ -15,6 +16,7 @@ function DemoPage() {
       <CategorySearchField label="Search Field" />
       <Textarea label='Text (Optional)' />
       <Dropdown label='Dropdown' />
+      <Checkbox label='Checkbox'/>
     </div>
   );
 }

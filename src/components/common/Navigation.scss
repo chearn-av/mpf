@@ -63,7 +63,9 @@
     fill: $white;
   }
 
-  &:hover {
+  &:hover, &:focus {
+    color: $white;
+
     #Icon-Color, #path-1, #ic-graph-bar #Icon, #ic-report #Icon, #ic-clock #Icon, #Combined-Shape {
       fill: $white;
     }
