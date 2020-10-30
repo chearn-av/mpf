@@ -11,20 +11,35 @@ import MerckButton from '../common/button/Button';
 import AddWhite from '../../Icons/ic-add-white.svg';
 
 function DemoPage() {
+  const dropdownOptions = [
+    {
+      eventKey: '1',
+      label: 'USA'
+    },
+    {
+      eventKey: '2',
+      label: 'France'
+    },
+    {
+      eventKey: '3',
+      label: 'Germany'
+    }
+  ];
+
   return (
     <div>
-        <MerckButton image={AddWhite} label='Primary' variant='default' size='sm'/>
-        <MerckButton label='Secondary' variant='secondary' size='sm'/>
-        <MerckButton label='Third' variant='tertiary' size='sm'/>
+      <MerckButton image={AddWhite} label='Primary' variant='default' size='sm' />
+      <MerckButton label='Secondary' variant='secondary' size='sm' />
+      <MerckButton label='Third' variant='tertiary' size='sm' />
       <Input />
       <Input disabled={true} />
       <Input label='Form Label' />
       <SearchField />
       <CategorySearchField label="Search Field" />
       <Textarea label='Text (Optional)' />
-      <Dropdown label='Dropdown' />
-      <Checkbox label='Checkbox'/>
-      <Checklist label='Checklist' list={['Option 1', 'Option 2', 'Option 3']}/>
+      <Dropdown label='Dropdown' options={dropdownOptions} />
+      <Checkbox label='Checkbox' />
+      <Checklist label='Checklist' list={['Option 1', 'Option 2', 'Option 3']} />
       <div className="grid">
         <RichGridDeclarativeExample />
       </div>
