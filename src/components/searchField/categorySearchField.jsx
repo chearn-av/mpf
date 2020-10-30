@@ -4,7 +4,7 @@ import { InputGroup, DropdownButton, Dropdown, Form } from 'react-bootstrap';
 
 const categorySearchField = (props) => {
     return (
-        <div class='category-search'>
+        <div className='category-search'>
             <InputGroup>
                 {props.label && <Form.Label className='input-label'>{props.label}</Form.Label>}
                 <Form.Control placeholder="input text" type="text" className='simple-input' disabled={props.disabled} />

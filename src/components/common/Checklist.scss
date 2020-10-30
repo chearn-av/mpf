@@ -1,0 +1,11 @@
+@import '../../Themes/variables.scss';
+
+.check-list {
+    .custom-checkbox {
+        display: flex !important;
+    }
+
+    .check-list-label {
+        margin-left: 24px;
+    }
+}
