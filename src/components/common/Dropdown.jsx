@@ -1,5 +1,4 @@
 import React from 'react';
-import './Dropdown.css';
 import { Dropdown } from 'react-bootstrap';
 
 function DropDown(props) {

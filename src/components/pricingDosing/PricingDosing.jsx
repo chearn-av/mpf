@@ -1,5 +1,4 @@
 import React from 'react';
-import './PricingDosing.css';
 
 function PricingDosing() {
   return (

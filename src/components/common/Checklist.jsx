@@ -1,5 +1,4 @@
 import React from 'react';
-import './Checklist.scss';
 import { Form } from 'react-bootstrap'
 import Checkbox from '../common/Checkbox'
 

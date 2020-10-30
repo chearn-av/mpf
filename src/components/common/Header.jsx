@@ -1,7 +1,6 @@
 import React from 'react';
 import Dropdown from './Dropdown';
-import logo from 'Icons/ic-merck-logo.svg';
-import './Header.css';
+import logo from 'icons/ic-merck-logo.svg';
 
 function Header(props) {
   return (

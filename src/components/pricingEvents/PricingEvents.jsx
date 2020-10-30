@@ -1,5 +1,4 @@
 import React from 'react';
-import './PricingEvents.css';
 
 function PricingEvents() {
   return (

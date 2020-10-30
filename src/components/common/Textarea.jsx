@@ -1,5 +1,4 @@
 import React from 'react';
-import './Textarea.scss'
 import { Form } from 'react-bootstrap';
 
 const Textarea = (props) => {

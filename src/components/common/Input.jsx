@@ -1,5 +1,4 @@
 import React from 'react';
-import './Input.scss'
 import { Form } from 'react-bootstrap';
 
 const Input = (props) => {

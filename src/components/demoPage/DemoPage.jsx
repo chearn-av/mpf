@@ -7,9 +7,8 @@ import CategorySearchField from '../searchField/categorySearchField';
 import Checkbox from '../common/Checkbox';
 import Checklist from '../common/Checklist';
 import RichGridDeclarativeExample from "../gridRichDataExample/RichGridDeclarativeExample";
-import './DemoPage.css';
 import MerckButton from '../common/button/Button';
-import AddWhite from '../../Icons/ic-add-white.svg';
+import AddWhite from '../../icons/ic-add-white.svg';
 
 function DemoPage() {
   return (

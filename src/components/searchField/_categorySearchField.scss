@@ -1,5 +1,3 @@
-@import '../common/Dropdown.scss';
-
 .category-search {
     display: inline-flex;
     flex-direction: column;
@@ -13,7 +11,7 @@
             color: #212121;
             padding-left: 16px;
             font-family: $roboto;
-            background: url('../../Icons/ic-search.svg');
+            background: url('./icons/ic-search.svg');
             background-color: $white;
             background-repeat: no-repeat;
             background-position: 3% 50%;

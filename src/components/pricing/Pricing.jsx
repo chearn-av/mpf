@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { AgGridColumn, AgGridReact } from "@ag-grid-community/react";
 import { AllModules } from "@ag-grid-enterprise/all-modules";
 import PricingActions from './PricingActions.jsx';
-import './Pricing.css';
 
 import "../../../node_modules/@ag-grid-community/core/dist/styles/ag-grid.css";
 import "../../../node_modules/@ag-grid-community/core/dist/styles/ag-theme-alpine.css";

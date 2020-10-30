@@ -1,5 +1,4 @@
 import React from 'react';
-import './categorySearchField.scss';
 import { InputGroup, DropdownButton, Dropdown, Form } from 'react-bootstrap';
 
 const categorySearchField = (props) => {

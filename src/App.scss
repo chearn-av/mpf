@@ -1,5 +1,6 @@
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
-@import './Themes/variables.scss';
+@import './themes/variables';
+@import './components/components';
 
 .contents {
   display: flex;
@@ -18,5 +19,4 @@
     padding: 8px 0;
     margin-bottom: 0;
   }
-
 }
