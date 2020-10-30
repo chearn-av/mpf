@@ -5,6 +5,8 @@ import Dropdown from '../common/Dropdown';
 import SearchField from '../searchField/searchField';
 import CategorySearchField from '../searchField/categorySearchField';
 import Checkbox from '../common/Checkbox';
+import RichGridDeclarativeExample from "../gridRichDataExample/RichGridDeclarativeExample";
+import './DemoPage.css';
 
 function DemoPage() {
   return (
@@ -17,6 +19,9 @@ function DemoPage() {
       <Textarea label='Text (Optional)' />
       <Dropdown label='Dropdown' />
       <Checkbox label='Checkbox'/>
+      <div className="grid">
+        <RichGridDeclarativeExample />
+      </div>
     </div>
   );
 }
