@@ -1,15 +1,15 @@
 import React, { useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Accordion, Card, useAccordionToggle, AccordionContext } from 'react-bootstrap';
-import { ReactComponent as SearchIcon } from 'icons/ic-search.svg';
-import { ReactComponent as PricingIcon } from 'icons/ic-pricing.svg';
-import { ReactComponent as ReportIcon } from 'icons/ic-report.svg';
-import { ReactComponent as SettingsIcon } from 'icons/ic-settings.svg';
-import { ReactComponent as GraphIcon } from 'icons/ic-line-graph.svg';
-import { ReactComponent as CalendarIcon } from 'icons/ic-calendar.svg';
-import { ReactComponent as CaretDown } from 'icons/ic-caret-down.svg';
-import { ReactComponent as CaretUp } from 'icons/ic-caret-up.svg';
-import { ReactComponent as ClockIcon } from 'icons/ic-clock.svg';
+import { ReactComponent as SearchIcon } from 'Icons/ic-search.svg';
+import { ReactComponent as PricingIcon } from 'Icons/ic-pricing.svg';
+import { ReactComponent as ReportIcon } from 'Icons/ic-report.svg';
+import { ReactComponent as SettingsIcon } from 'Icons/ic-settings.svg';
+import { ReactComponent as GraphIcon } from 'Icons/ic-line-graph.svg';
+import { ReactComponent as CalendarIcon } from 'Icons/ic-calendar.svg';
+import { ReactComponent as CaretDown } from 'Icons/ic-caret-down.svg';
+import { ReactComponent as CaretUp } from 'Icons/ic-caret-up.svg';
+import { ReactComponent as ClockIcon } from 'Icons/ic-clock.svg';
 
 function ContextAwareToggle({ children, eventKey, callback, openClassname }) {
   const currentEventKey = useContext(AccordionContext);

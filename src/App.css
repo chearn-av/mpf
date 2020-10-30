@@ -10923,13 +10923,17 @@ a.text-dark:hover, a.text-dark:focus {
 
 .dropdown-component {
   margin-left: 8px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+}
+
+.dropdown {
+  display: block !important;
 }
 
 #dropdownButton {
@@ -10950,7 +10954,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .dropdown-toggle::after {
-  margin-left: 75% !important;
+  margin-left: 66% !important;
   color: #000000;
 }
 
@@ -11313,7 +11317,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .search-field .simple-input {
-  background: url("./icons/ic-search.svg");
+  background: url("Icons/ic-search.svg");
   background-color: #FFFFFF;
   background-repeat: no-repeat;
   background-position: 5% 50%;
@@ -11338,7 +11342,7 @@ a.text-dark:hover, a.text-dark:focus {
   color: #212121;
   padding-left: 16px;
   font-family: "Roboto", serif;
-  background: url("./icons/ic-search.svg");
+  background: url("Icons/ic-search.svg");
   background-color: #FFFFFF;
   background-repeat: no-repeat;
   background-position: 3% 50%;
