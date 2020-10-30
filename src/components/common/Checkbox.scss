@@ -1,7 +1,8 @@
 @import '../../Themes/variables.scss';
 
 .custom-checkbox {
-    display: flex;
+    display: inline-flex !important;
+    margin-bottom: 8px;
 
     .custom-control-input {
         width: 0;

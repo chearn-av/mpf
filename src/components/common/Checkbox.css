@@ -24,9 +24,10 @@
 }
 
 .custom-checkbox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  margin-bottom: 8px;
 }
 
 .custom-checkbox .custom-control-input {
