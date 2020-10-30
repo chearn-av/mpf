@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Dropdown } from 'react-bootstrap';
+import { Form } from 'react-bootstrap';
 
 /********************************************************
  * Dropdown Props
@@ -11,15 +11,11 @@ function DropDown(props) {
   return (
     <div className="dropdown-component">
       {props.label && <div className="label">{props.label}</div>}
-      <Dropdown>
-        <Dropdown.Toggle className='dropdown' id="dropdownButton">Select</Dropdown.Toggle>
-        <Dropdown.Menu>
-          {props.options.map(option =>
-            <Dropdown.Item eventKey={option.eventKey}>{option.label}</Dropdown.Item>
-          )}
-        </Dropdown.Menu>
-      </Dropdown>
-    </div>
+      <Form.Control className="dropdown" as="select">
+        {props.options.map(option =>
+          <option className="dropdown-option">{option.label}</option>)}
+      </Form.Control>
+    </div >
   );
 }
 

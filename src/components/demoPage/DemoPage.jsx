@@ -11,6 +11,11 @@ import MerckButton from '../common/button/Button';
 import AddWhite from '../../Icons/ic-add-white.svg';
 
 function DemoPage() {
+  const searchDropdownOptions = [
+    { eventKey: '1', label: 'Option A' },
+    { eventKey: '2', label: 'Option B' }
+  ];
+
   const dropdownOptions = [
     {
       eventKey: '1',
@@ -35,7 +40,7 @@ function DemoPage() {
       <Input disabled={true} />
       <Input label='Form Label' />
       <SearchField />
-      <CategorySearchField label="Search Field" />
+      <CategorySearchField label="Search Field" options={searchDropdownOptions} />
       <Textarea label='Text (Optional)' />
       <Dropdown label='Dropdown' options={dropdownOptions} />
       <Checkbox label='Checkbox' />
