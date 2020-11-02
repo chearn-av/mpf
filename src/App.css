@@ -10922,7 +10922,6 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .dropdown-component {
-  margin-left: 8px;
   display: -webkit-inline-box !important;
   display: -ms-inline-flexbox !important;
   display: inline-flex !important;
@@ -10940,7 +10939,20 @@ a.text-dark:hover, a.text-dark:focus {
   color: rgba(0, 0, 0, 0.5);
   width: 25%;
   height: 38px;
-  margin: auto;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("Icons/ic-caret-down.svg");
+  background-repeat: no-repeat;
+  /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
+  background-position: right .5em top 50%;
+  /* icon size, then gradient */
+  background-size: 1.25em auto, 100%;
+  /* Hide arrow icon in IE browsers */
+}
+
+.dropdown::-ms-expand {
+  display: none;
 }
 
 .dropdown:active, .dropdown:hover, .dropdown:focus {
@@ -10952,13 +10964,14 @@ a.text-dark:hover, a.text-dark:focus {
 .dropdown-option {
   min-width: 14.25rem !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
 }
 
 .dropdown-option:last-of-type {
   border-bottom: none;
 }
 
-.dropdown-option:active, .dropdown-option:hover, .dropdown-option:focus {
+.dropdown-option:active, .dropdown-option:hover, .dropdown-option:focus, .dropdown-option:checked {
   background-color: #E7F5FF !important;
 }
 

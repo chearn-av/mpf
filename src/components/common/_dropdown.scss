@@ -1,5 +1,4 @@
 .dropdown-component {
-  margin-left: 8px;
   display: inline-flex !important;
   flex-direction: column !important;
 }
@@ -12,7 +11,21 @@
   color: rgba(0,0,0, 0.5);
   width: 25%;
   height: 38px;
-  margin: auto;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url('Icons/ic-caret-down.svg');
+    // linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+  background-repeat: no-repeat;
+  /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
+  background-position: right .5em top 50%;
+  /* icon size, then gradient */
+  background-size: 1.25em auto, 100%;
+
+/* Hide arrow icon in IE browsers */
+  &::-ms-expand {
+      display: none;
+  }
 
   &:active, &:hover, &:focus {
     background-color: #E7F5FF;
@@ -25,11 +38,13 @@
 .dropdown-option {
   min-width: 14.25rem !important;
   border-bottom: 1px solid rgba(0,0,0, 0.1);
+  background-color: $white;
+  
   &:last-of-type {
     border-bottom: none;
   }
 
-  &:active, &:hover, &:focus {
+  &:active, &:hover, &:focus, &:checked {
     background-color: #E7F5FF !important;
   }
 

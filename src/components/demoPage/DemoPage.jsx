@@ -13,7 +13,9 @@ import AddWhite from '../../Icons/ic-add-white.svg';
 function DemoPage() {
   const searchDropdownOptions = [
     { eventKey: '1', label: 'Option A' },
-    { eventKey: '2', label: 'Option B' }
+    { eventKey: '2', label: 'Option B' },
+    { eventKey: '3', label: 'Option C' },
+    { eventKey: '4', label: 'Option D' }
   ];
 
   const dropdownOptions = [
